@@ -17,6 +17,7 @@ class Restaurant
     end
   
     def cost(*orders)
+      # puts orders.inspect
       totalCost = 0
       orders.each do |orderArray|
         orderArray.each do | orderName, quantity |
@@ -29,7 +30,7 @@ class Restaurant
 
     def menu_info
       @menu
-    end
+    end 
 
     def getKeyValue(key)
       @menu[key]
@@ -37,10 +38,11 @@ class Restaurant
 end
 
 restaurant = Restaurant.new({:rice => 3, :noodles => 2})
-orders = [{:rice => 2, :noodles => 2}, {:rice => 1, :noodles => 1}]
+order1 = {:rice => 2, :noodles => 2}
+orders2 = {:rice => 1, :noodles => 1}
 # orders = {:rice => 2, :noodles => 2}
 
-# puts restaurant.cost orders
+puts restaurant.cost order1,orders2
 
 # def print_spouses(person, *spouses)
 #   spouses.each do |spouse|

@@ -10,3 +10,11 @@ Also, it is necessary to provide original program's source code and objective fo
 
 * simple console game that I made in C, in ruby https://github.com/crowjambo/SimpleConsoleGame/blob/master/SimpleConsoleGame/Source.c
 * this c# console app https://github.com/crowjambo/OO_classwork/tree/master/Task2
+
+
+
+
+
+
+
+# Do simpler stuff!!! (cispher some shit, simple consle bs!!, even simpler!) (its easy to write tests for it as well)
