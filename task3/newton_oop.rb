@@ -24,7 +24,7 @@ class NewtonCalculator
       converged = (@f.call(x1).abs <= @err)
       break if converged
     end
-    x1
+    (x1).round(2)
   end
 end
 
